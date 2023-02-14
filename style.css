@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.button{
+    padding: 10px;
+    color: white;
+    background-color: darkred;
+    border-color: darkred;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.griglia{
+    flex-wrap: wrap;
+    padding-top: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.celle{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    aspect-ratio: 1;
+}
+
+.bg-red{
+    background-color: darkred;
+    color: white;
+}
+
+.bg-green{
+    background-color: green;
+    color: white;
+}
+
+.risultato{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
